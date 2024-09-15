@@ -82,3 +82,10 @@ footer a:hover {
     }
 }
 
+.social-media img {
+    width: 30px;
+    margin: 0 10px;
+    background-color: white; /* Background for visibility */
+    border-radius: 50%; /* Circular icons */
+    padding: 5px;
+}
