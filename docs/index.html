@@ -5,6 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevOpsMane Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: black;
+            color: darkgreen;
+            font-family: Arial, sans-serif;
+        }
+
+        h1, h2 {
+            color: darkpink; /* Replace with a valid dark pink hex code */
+        }
+
+        header, section, footer {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        a {
+            color: darkpink; /* Highlighted in dark pink */
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .social-media {
+            margin-top: 20px;
+        }
+
+        .social-media img {
+            width: 30px;
+            margin: 0 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -12,27 +57,34 @@
         <p>Showcasing my DevOps journey and projects.</p>
         <img src="https://devopsmane.s3.us-east-2.amazonaws.com/devops20.png" alt="DevOps Image">
     </header>
+    
     <section>
         <h2>About Me</h2>
-        <p>I am a DevOps engineer with expertise in Continuous Integration and Continuous Delivery (CI/CD), Kubernetes, Docker, and cloud technologies such as AWS and Azure. I am experienced in automating infrastructure using Infrastructure as Code (IaC) tools like Terraform and CloudFormation, and in managing scalable, reliable environments using Kubernetes for container orchestration. My focus is on streamlining development pipelines, improving system resilience, and fostering a culture of automation and collaboration.</p>
+        <p>I am a DevOps engineer with expertise in Continuous Integration and Continuous Delivery (CI/CD), Kubernetes, Docker, and cloud technologies such as AWS and GCP. I am experienced in automating infrastructure using Infrastructure as Code (IaC) tools like Terraform and CloudFormation, and in managing scalable, reliable environments using Kubernetes for container orchestration. My focus is on streamlining development pipelines, improving system resilience, and fostering a culture of automation and collaboration.</p>
     </section>
-    <section>
+
+    <section class="skills">
         <h2>Skills</h2>
         <ul>
-            <li>CI/CD pipelines: Jenkins & GitLab Hub</li>
+            <li>CI/CD pipelines: Jenkins, GitLab CI, CircleCI</li>
             <li>Containerization: Docker, Kubernetes</li>
-            <li>Cloud Platforms: AWS, Azure</li>
+            <li>Cloud Platforms: AWS, GCP, Azure</li>
             <li>Infrastructure as Code (IaC): Terraform, CloudFormation</li>
             <li>Monitoring and Logging: Prometheus, Grafana, ELK Stack</li>
-            <li>Configuration Management: Ansible</li>
+            <li>Configuration Management: Ansible, Chef, Puppet</li>
             <li>Version Control: Git, GitHub, GitLab</li>
-            <li>Scripting Languages: Python, Bash</li>
-            <li>Ticketing Tools: Jira, ClickUp</li>
+            <li>Scripting Languages: Python, Bash, PowerShell</li>
             <li>Security Best Practices in DevOps</li>
         </ul>
     </section>
+
     <footer>
         <p>Contact me: <a href="mailto:devopsmane@example.com">devopsmane@example.com</a></p>
+        <div class="social-media">
+            <a href="https://devopsmane.xyz/github"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"></a>
+            <a href="https://devopsmane.xyz/linkedin"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+            <a href="https://devopsmane.xyz/twitter"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+        </div>
     </footer>
 </body>
 </html>
