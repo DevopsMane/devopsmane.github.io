@@ -67,19 +67,45 @@
     </section>
 
     <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>CI/CD pipelines: Jenkins, GitLab CI, CircleCI</li>
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <ul class="column">
+            <li>CI/CD Pipelines: Jenkins, GitHub, ArgoCD</li>
             <li>Containerization: Docker, Kubernetes</li>
-            <li>Cloud Platforms: AWS, GCP, Azure</li>
+            <li>Cloud Platforms: AWS, Azure</li>
             <li>Infrastructure as Code (IaC): Terraform, CloudFormation</li>
-            <li>Monitoring and Logging: Prometheus, Grafana, ELK Stack</li>
-            <li>Configuration Management: Ansible, Chef, Puppet</li>
-            <li>Version Control: Git, GitHub, GitLab</li>
-            <li>Scripting Languages: Python, Bash, PowerShell</li>
-            <li>Security Best Practices in DevOps</li>
+            <li>Monitoring and Logging: Prometheus, Grafana, ELK Stack (Kibana), Logiz</li>
+            <li>Configuration Management: Ansible</li>
+            <li>Version Control: Git, GitHub, Bitbucket</li>
         </ul>
-    </section>
+        <ul class="column">
+            <li>Scripting Languages: Python, Bash, Groovy</li>
+            <li>Operating Systems: UNIX, Linux, Windows</li>
+            <li>Build Management Tools: Maven, ANT, Makefile</li>
+            <li>Application Servers: Apache Tomcat</li>
+            <li>Web Server: Apache HTTP</li>
+            <li>Bug Tracking Tools: Jira, ClickUp</li>
+            <li>Security Best Practices in DevOps: DevOps Security Practices</li>
+            <li>Other Tools: Helm Charts, SonarQube, Artifactory, Trivy</li>
+        </ul>
+    </div>
+</section>
+
+<style>
+    .skills-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .column {
+        width: 45%; /* Adjust width as necessary for layout */
+        list-style-type: none;
+        padding: 0;
+    }
+    .column li {
+        margin-bottom: 10px;
+    }
+</style>
+
 
     <footer>
         <p>Contact me: <a href="mailto:devopsmane@example.com">devopsmane.xyz</a></p>
