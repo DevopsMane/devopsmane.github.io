@@ -190,6 +190,27 @@
     }
 </style>
 
+    <style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Ensure no scrollbars */
+        width: 100%;
+        height: 100%;
+        background: black; /* Fallback color */
+    }
+
+    canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Ensure it stays behind content */
+    }
+</style>
+
+
     <footer>
         <p>Contact me: <a href="mailto:devopsmanexyz@gmail.com">devopsmane.xyz</a></p>
         <p><a href="https://devopsmane.github.io/Resume_Bharath.pdf" target="_blank">Download My Resume</a></p>
