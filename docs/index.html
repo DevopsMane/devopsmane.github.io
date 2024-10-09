@@ -52,6 +52,8 @@
             border-radius: 50%; /* Circular icons */
             padding: 5px;
         }
+
+        
     </style>
 </head>
 <body>
@@ -60,7 +62,21 @@
         <p>Showcasing my DevOps journey and projects.</p>
         <img src="https://devopsmane.s3.us-east-2.amazonaws.com/devops20.png" alt="DevOps Image">
     </header>
-    
+    <style>
+    /* Default styling for the image */
+    img {
+        max-width: 100%; /* Ensures the image doesn't overflow its container */
+        height: auto; /* Keeps the aspect ratio */
+    }
+
+    /* Mobile-specific adjustments */
+    @media only screen and (max-width: 600px) {
+        img {
+            max-width: 90%; /* Reduce the width further on smaller screens */
+        }
+    }
+</style>
+
     <section>
         <h2>About Me</h2>
         <p>I am a DevOps engineer with expertise in Continuous Integration and Continuous Delivery (CI/CD), Kubernetes, Docker, and cloud technologies such as AWS and Azure. I am experienced in automating infrastructure using Infrastructure as Code (IaC) tools like Terraform and CloudFormation, and in managing scalable, reliable environments using Kubernetes for container orchestration. My focus is on streamlining development pipelines, improving system resilience, and fostering a culture of automation and collaboration.</p>
@@ -125,7 +141,7 @@
     body {
         background-color: black;
         color: darkgreen;
-        font-family: Arial, sans-serif;
+        font-family: Georgia, sans-serif;
         border: 5px solid green; /* Add green bold border */
         padding: 20px; /* Add padding to prevent the content from touching the border */
         margin: 0; /* Ensure the border is flush with the window */
@@ -174,7 +190,7 @@
 </style>
 
     <footer>
-        <p>Contact me: <a href="mailto:devopsmane@example.com">devopsmane.xyz</a></p>
+        <p>Contact me: <a href="mailto:devopsmanexyz@gmail.com">devopsmane.xyz</a></p>
         <p><a href="https://devopsmane.github.io/Resume_Bharath.pdf" target="_blank">Download My Resume</a></p>
         <div class="social-media">
             <a href="https://github.com/DevopsMane">
@@ -192,9 +208,10 @@
             <a href="https://hub.docker.com/">
                 <img class="social-icon" src="https://cdn-icons-png.flaticon.com/512/919/919853.png" alt="DockerHub">
             </a>
-            <a href="https://devopsmane.xyz/youtube">
-                <img class="social-icon" src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+            <a href="https://t.me/devopsmane">
+                 <img class="social-icon" src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram">
             </a>
+
         </div>
     </footer>
 </body>
